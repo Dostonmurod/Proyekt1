@@ -92,7 +92,7 @@ public class Main {
        Scanner kiritilgan= new Scanner(System.in);
         System.out.println("raqam kiriting");
         int raqam= kiritilgan.nextInt();
-        int natija=0;
+        int natija=2;
         for (int sanoq=1; sanoq<=raqam; sanoq++)
         natija+=sanoq;
         System.out.printf("1 dan %d gacha bolgan raqamlar igindisi: %d ", raqam,natija);
